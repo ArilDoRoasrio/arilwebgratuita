@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ulun{
+    display: flex;
+    padding: 10px;
+    background-color: #131313;
+}
+
+.ulun img{
+    width: 5rem;
+    padding: 10px;
+}
+
+.ulun .menu{
+    margin-left: 25rem;
+}
+
+.ulun .menu a{
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.ulun .menu a:hover{
+    color: aqua;
+    transition: 0.5s;
+}
+
+/* Parte konten */
+
+.isin1-varanda h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.isin1-varanda p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.isin1-varanda .isin1-varanda-img img{
+    width: 30rem;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.isin1-varanda .isin1-varanda-img a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: #131313;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+}
+
+
+/* Parte Produtu */
+
+.isin1-produtu .kareta{
+    display: flex;
+}
+
+.isin1-produtu .kareta .kotak{
+    width: 15rem;
+    height: 10rem;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.isin1-produtu .kareta .kotak img{
+    padding-top: 25px;
+    width: 10rem;
+}
+
+.spasi-tun{
+    padding-top: 90px;
+}
+
+
+/* Parte Kona-ba Ami */
+
+.isin1-ami{
+    display: flex;
+}
+
+.isin1-ami .letra{
+    padding: 20px;
+}
+
+.isin1-ami .letra p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.isin1-ami img{
+    margin: 20px;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+/* Kontak */
+.kontak-ami{
+    margin-top: -7rem;
+}
+
+.kuadradu{
+	padding-top: 50px;
+	background-color: rgba(10, 200, 247, 0.231);
+	width: 400px;
+	height: 313px;
+	border-radius: 10px;
+}
+
+.kuadradu input, textarea{
+	margin-top: 10px;
+	width: 15rem;
+	padding: 8px;
+	border-radius: 5px;
+	padding-top: 10px;
+	border-color: black;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.kuadradu button{
+	width: 100px;
+	height: 30px;
+	background-color: rgba(0, 255, 115, 0.384);
+	border-color: rgb(255, 0, 0);
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+/* profil */
+
+.profil h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profil img{
+    width: 15rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* Parte Footer */
+
+footer{
+    margin-top:6rem;
+    background-color: #131313;
+}
+
+footer p{
+    color: aqua;
+    padding: 10px;
+}
